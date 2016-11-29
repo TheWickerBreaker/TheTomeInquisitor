@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FreeTome Inquisitor</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="empty_search_toast">Please enter your inquery for your FreeTomes…</string>
+    <string name="not_available">Not Available</string>
+    <string name="no_author">Author Not Available</string>
+    <string name="no_description">No Description Provided</string>
+    <string name="na">N/A</string>
+    <string name="main_logo_description">Main Logo</string>
+    <string name="main_search_title">Start Your Inquisition</string>
+    <string name="by">By:</string>
+    <string name="yo_r_inquery">Yo R. Inquery…</string>
+    <string name="find_button">Find</string>
+    <string name="written_by">Written by:</string>
+    <string name="new_inquery">New Inquery…</string>
+    <string name="book_cover">Book Cover</string>
+    <string name="description">Description:</string>
+    <string name="genre">Genre:</string>
+    <string name="page_count">Page Count:</string>
+    <string name="download_your_freetome">Download Your FreeTome</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainTextGold"
+    android:orientation="horizontal"
+    android:rotation="180">
+
+    <View
+        android:id="@+id/topSpineLine"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:background="@color/black"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tomeTitle"
+            style="@style/listItemTitle" />
+
+        <TextView
+            android:id="@+id/byLine"
+            style="@style/listItemByText"
+            android:text="@string/written_by" />
+
+        <TextView
+            android:id="@+id/tomeAuthor"
+            style="@style/listItemAuthor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/publisherContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/publisher"
+            style="@style/listItemPublisher" />
+
+    </LinearLayout>
+</LinearLayout>

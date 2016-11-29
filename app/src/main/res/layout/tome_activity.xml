@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:isScrollContainer="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        style="@style/mainHeaderLogo"
+        android:contentDescription="@string/main_logo_description"/>
+
+    <RelativeLayout
+        android:id="@+id/loading_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tomes"
+        android:visibility="visible">
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/mainTextGold"
+            tools:targetApi="lollipop" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/emptyStyle"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/black"
+        android:dividerHeight="8dp"
+        android:rotation="-90"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:background="@drawable/wood">
+
+        <EditText
+            android:id="@+id/searchAgain"
+            style="@style/innerSearchFeild"
+            android:hint="@string/new_inquery" />
+
+        <Button
+            android:id="@+id/findAgain"
+            style="@style/innerFindBtn"
+            android:text="@string/find_button" />
+    </LinearLayout>
+</LinearLayout>

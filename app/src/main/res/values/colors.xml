@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#2B3D4D</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#693319</color>
+
+    <!-- Accent color of the app -->
+    <color name="colorAccent">#f4e7bb</color>
+
+    <color name="pallet1L">#938272</color>
+    <color name="pallet1ML">#626166</color>
+    <color name="pallet1M">#cc9e62</color>
+    <color name="pallet1MD">#542015</color>
+    <color name="pallet1D">#020305</color>
+
+    <color name="pallet2L">#e2df9a</color>
+    <color name="pallet2ML">#eae54d</color>
+    <color name="pallet2M">#ff0050</color>
+    <color name="pallet2MD">#757448</color>
+    <color name="pallet2D">#4b490c</color>
+
+    <color name="pallet3L">#f2f1dd</color>
+    <color name="pallet3ML">#b5b58f</color>
+    <color name="pallet3M">#8f0854</color>
+    <color name="pallet3MD">#47472b</color>
+    <color name="pallet3D">#3b3130</color>
+
+    <color name="pallet4L">#949494</color>
+    <color name="pallet4ML">#3a3a3a</color>
+    <color name="pallet4M">#3e5b5f</color>
+    <color name="pallet4MD">#125357</color>
+    <color name="pallet4D">#002d32</color>
+
+    <color name="pallet5L">#a3c1ad</color>
+    <color name="pallet5ML">#a0d6b4</color>
+    <color name="pallet5M">#5f9ea0</color>
+    <color name="pallet5MD">#317873</color>
+    <color name="pallet5D">#49796b</color>
+
+    <color name="pallet6L">#ffcc7d</color>
+    <color name="pallet6ML">#ffb03a</color>
+    <color name="pallet6M">#ba0c01</color>
+    <color name="pallet6MD">#5d0805</color>
+    <color name="pallet6D">#6a3516</color>
+
+    <color name="pallet7L">#c4ac7c</color>
+    <color name="pallet7ML">#5e6a58</color>
+    <color name="pallet7M">#9e391a</color>
+    <color name="pallet7MD">#354536</color>
+    <color name="pallet7D">#2d433a</color>
+
+    <color name="pallet8L">#d8d6af</color>
+    <color name="pallet8ML">#c3b787</color>
+    <color name="pallet8M">#ab925c</color>
+    <color name="pallet8MD">#da902d</color>
+    <color name="pallet8D">#983727</color>
+
+    <color name="pallet9L">#d9b7b6</color>
+    <color name="pallet9ML">#ff5788</color>
+    <color name="pallet9M">#fe3942</color>
+    <color name="pallet9MD">#791718</color>
+    <color name="pallet9D">#3a3436</color>
+
+    <color name="pallet10L">#f6f8ed</color>
+    <color name="pallet10ML">#d6e78b</color>
+    <color name="pallet10M">#94aa61</color>
+    <color name="pallet10MD">#8a9752</color>
+    <color name="pallet10D">#121210</color>
+
+
+    <color name="mainTextGold">#f4e7bb</color>
+    <color name="redLeather">#732d1d</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+</resources>
