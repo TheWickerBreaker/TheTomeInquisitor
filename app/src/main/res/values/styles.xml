@@ -10,7 +10,8 @@
 
     <style name="mainHeaderLogo">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">.25</item>
         <item name="android:scaleType">fitXY</item>
         <item name="android:src">@drawable/freetomelogo</item>
     </style>
@@ -178,7 +179,7 @@
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:cursorVisible">true</item>
         <item name="android:inputType">textAutoComplete</item>
-        <item name="android:padding">5dp</item>
+        <item name="android:padding">10dp</item>
         <item name="android:textColor">@color/mainTextGold</item>
         <item name="android:textColorHint">@color/mainTextGold</item>
         <item name="android:textSize">20sp</item>
