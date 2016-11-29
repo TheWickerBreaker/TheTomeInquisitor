@@ -35,7 +35,7 @@
 
     <ListView
         android:id="@+id/list"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".85"
         android:divider="@color/black"
@@ -48,7 +48,7 @@
         android:id="@+id/searchLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".25"
+        android:layout_weight=".2"
         android:background="@drawable/wood">
 
         <EditText
